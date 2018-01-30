@@ -1,0 +1,41 @@
+AllCops:
+  DisplayCopNames: true
+  TargetRubyVersion: 2.4.2
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+  Exclude:
+    - 'bin/*'
+    - 'lib/**/*'
+    - 'config/**/*'
+    - 'db/**/*'
+    - 'scripts/**/*'
+    - 'vendor/**/*'
+    - 'node_modules/**/*'
+
+Rails:
+  Enabled: true
+
+Layout/EndOfLine:
+  Enabled: false
+
+# Document classes and non-namespace modules.
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/LineLength:
+  Max: 100
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
+Naming/FileName:
+  Exclude:
+    - 'Gemfile'
