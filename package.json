@@ -21,7 +21,7 @@
     "stylelint-config-standard": "^17.0.0"
   },
   "scripts": {
-    "lint-staged": "$(yarn bin)/lint-staged"
+    "lint-staged": "lint-staged"
   },
   "lint-staged": {
     "config/webpack/**/*.js": [
