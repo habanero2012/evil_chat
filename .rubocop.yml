@@ -19,6 +19,9 @@ Rails:
 Layout/EndOfLine:
   Enabled: false
 
+Style/AsciiComments:
+  Enabled: false
+
 # Document classes and non-namespace modules.
 Style/Documentation:
   Enabled: false
